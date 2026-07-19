@@ -4,7 +4,7 @@ import { ThemeToggle } from "@/components/ThemeToggle";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Nirali Gupta — Full Stack Python Developer" },
+      { title: "Nirali Gupta,  Full Stack Python Developer" },
       {
         name: "description",
         content:
