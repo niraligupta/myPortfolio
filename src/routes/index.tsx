@@ -192,7 +192,7 @@ function Masthead() {
 function Hero() {
   return (
     <section id="top" className="relative overflow-hidden border-b border-border">
-      <div className="mx-auto max-w-6xl px-6 py-24 md:py-32">
+      <div className="mx-auto max-w-6xl px-6 py-24 md:py-12">
         <div className="flex items-center gap-2 font-mono text-xs uppercase tracking-widest text-accent">
           <span className="h-2 w-2 rounded-full bg-accent" />
           <span>Available for opportunities</span>
@@ -200,7 +200,7 @@ function Hero() {
           <span className="text-muted-foreground">Delhi, India</span>
         </div>
 
-        <h1 className="mt-8 max-w-4xl font-display text-5xl font-bold leading-[1.05] tracking-tight text-foreground md:text-7xl lg:text-8xl">
+        <h1 className="mt-8 max-w-4xl font-display text-3xl font-bold leading-[1.2] tracking-tight text-foreground md:text-6xl lg:text-7xl">
           Full Stack <span className="text-accent">Python Developer</span>{" "}
           Building Scalable and Impactful Software.
         </h1>
@@ -248,7 +248,7 @@ function Hero() {
 function SectionHeader({ eyebrow, title }: { eyebrow: string; title: string }) {
   return (
     <div className="mb-12">
-      <div className="font-mono text-xs uppercase tracking-widest text-accent">
+      <div className="font-mono text-sm font-semibold uppercase tracking-widest text-accent">
         {eyebrow}
       </div>
       <h2 className="mt-3 font-display text-3xl font-bold tracking-tight text-foreground md:text-4xl">
@@ -276,7 +276,7 @@ function About() {
             </p>
           </div>
           <aside className="paper h-fit p-6">
-            <h3 className="font-mono text-xs uppercase tracking-widest text-accent">
+            <h3 className="font-mono text-sm font-semibold uppercase tracking-widest text-accent">
               Currently
             </h3>
             <p className="mt-2 text-lg font-semibold text-foreground">
@@ -286,7 +286,7 @@ function About() {
               Developing transportation network data visualization platforms and REST APIs.
             </p>
             <div className="my-5 rule" />
-            <h3 className="font-mono text-xs uppercase tracking-widest text-accent">
+            <h3 className="font-mono text-sm font-semibold uppercase tracking-widest text-accent">
               Based in
             </h3>
             <p className="mt-2 text-foreground">Delhi, India</p>
@@ -305,7 +305,7 @@ function Skills() {
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {Object.entries(skills).map(([group, items]) => (
             <div key={group} className="paper p-6">
-              <h3 className="font-mono text-xs uppercase tracking-widest text-accent">
+              <h3 className="font-mono text-sm font-semibold uppercase tracking-widest text-accent">
                 {group}
               </h3>
               <ul className="mt-4 flex flex-wrap gap-2">
@@ -368,7 +368,7 @@ function Projects() {
         <SectionHeader eyebrow="04 — Selected work" title="Projects & case studies." />
 
         <article className="paper mb-10 p-8">
-          <div className="font-mono text-xs uppercase tracking-widest text-accent">
+          <div className="font-mono text-sm font-semibold uppercase tracking-widest text-accent">
             Featured
           </div>
           <h3 className="mt-3 text-2xl font-bold text-foreground md:text-3xl">
@@ -444,7 +444,7 @@ function Contact() {
   return (
     <section id="contact" className="py-24">
       <div className="mx-auto max-w-4xl px-6 text-center">
-        <span className="font-mono text-xs uppercase tracking-widest text-accent">
+        <span className="font-mono text-sm font-semibold uppercase tracking-widest text-accent">
           06 — Correspondence
         </span>
         <h2 className="mt-4 font-display text-4xl font-bold tracking-tight text-foreground md:text-6xl">
