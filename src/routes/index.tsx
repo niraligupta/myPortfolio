@@ -202,13 +202,14 @@ function Hero() {
 
         <h1 className="mt-8 max-w-4xl font-display text-5xl font-bold leading-[1.05] tracking-tight text-foreground md:text-7xl lg:text-8xl">
           Full Stack <span className="text-accent">Python Developer</span>{" "}
-          building useful software.
+          Building Scalable and Impactful Software.
         </h1>
 
         <p className="mt-8 max-w-2xl text-lg leading-relaxed text-muted-foreground md:text-xl">
-          I'm Nirali Gupta, I design and build scalable web applications, REST APIs
+          {/* I'm Nirali Gupta, I design and build scalable web applications, REST APIs
           and data visualization platforms. Currently at IIT Delhi, previously with
-          Blue Brain Technology, ICMR and more.
+          Blue Brain Technology, ICMR and more. */}
+          I'm Nirali Gupta, and I design and build scalable web applications, REST APIs, and data visualization platforms.I am currently working at IIT Delhi and have previously worked with Blue Brain Technology, ICMR, and other organizations.
         </p>
 
         <div className="mt-10 flex flex-wrap items-center gap-4">
@@ -265,14 +266,13 @@ function About() {
         <div className="grid gap-12 md:grid-cols-[2fr_1fr]">
           <div className="space-y-6 text-lg leading-relaxed text-muted-foreground">
             <p className="text-2xl font-medium leading-relaxed text-foreground">
-              I specialize in Python, Django, FastAPI, React and Next.js. I enjoy
+              I specialize in Python, Django, FastAPI, React, and Next.js. I enjoy
               solving real-world problems — whether that's a transportation dashboard
               at IIT Delhi, FastAPI microservices in production, or healthcare
               platforms for ICMR that help clinicians and researchers collaborate.
             </p>
             <p>
-              I care about clean APIs, honest UI and code that stays maintainable
-              long after the demo. Always learning, always shipping.
+             I care about clean APIs, intuitive user interfaces, and maintainable code that remains reliable long after deployment. Always learning, always shipping.
             </p>
           </div>
           <aside className="paper h-fit p-6">
@@ -283,7 +283,7 @@ function About() {
               Project Assistant, IIT Delhi
             </p>
             <p className="mt-1 text-sm text-muted-foreground">
-              Transportation network data visualization + REST APIs.
+              Developing transportation network data visualization platforms and REST APIs.
             </p>
             <div className="my-5 rule" />
             <h3 className="font-mono text-xs uppercase tracking-widest text-accent">
@@ -451,8 +451,7 @@ function Contact() {
           Let's build something <span className="text-accent">together</span>.
         </h2>
         <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground">
-          Open to full-time roles, freelance projects and interesting collaborations
-          in full stack, APIs and data visualization.
+         Open to full-time opportunities, freelance projects, and exciting collaborations in full-stack development, API development, and data visualization.
         </p>
         <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
           <a
