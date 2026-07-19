@@ -477,7 +477,7 @@ function Footer() {
     <footer className="border-t border-border py-6">
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-2 px-6 text-sm text-muted-foreground sm:flex-row">
         <p>© {new Date().getFullYear()} Nirali Gupta</p>
-        <p>Designed & built with care</p>
+        {/* <p>Designed & built with care</p> */}
       </div>
     </footer>
   );
