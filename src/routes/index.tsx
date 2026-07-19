@@ -4,7 +4,7 @@ import { ThemeToggle } from "@/components/ThemeToggle";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Nirali Gupta,  Full Stack Python Developer" },
+      { title: "Nirali Gupta, Full Stack Python Developer" },
       {
         name: "description",
         content:
@@ -206,7 +206,7 @@ function Hero() {
         </h1>
 
         <p className="mt-8 max-w-2xl text-lg leading-relaxed text-muted-foreground md:text-xl">
-          I'm Nirali Gupta — I design and build scalable web applications, REST APIs
+          I'm Nirali Gupta, I design and build scalable web applications, REST APIs
           and data visualization platforms. Currently at IIT Delhi, previously with
           Blue Brain Technology, ICMR and more.
         </p>
