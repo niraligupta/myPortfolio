@@ -229,7 +229,7 @@ function Hero() {
 
         <dl className="mt-20 grid grid-cols-2 gap-8 border-t border-border pt-10 md:grid-cols-4">
           {[
-            ["4+", "Years experience"],
+            ["3+", "Years experience"],
             ["10+", "Shipped projects"],
             ["6", "Companies & orgs"],
             ["3", "Degrees earned"],
